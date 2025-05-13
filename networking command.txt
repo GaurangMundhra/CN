@@ -1,0 +1,30 @@
+ipconfig
+ipconfig /all
+ping [IP address or domain]
+tracert [destination]
+nslookup [domain]
+netstat
+netstat -an
+arp -a
+route print
+netsh interface ip show config
+
+ipconfig: Displays the IP configuration of the network interfaces on your device, such as IP address, subnet mask, and default gateway.
+
+ipconfig /all: Provides detailed information about all network interfaces, including DNS servers, MAC address, DHCP status, and more.
+
+ping [IP address or domain]: Tests connectivity to a specific IP address or domain. It sends ICMP Echo Request packets and waits for a response.
+
+tracert [destination]: Traces the route packets take to reach a destination IP or domain, showing each hop along the way.
+
+nslookup [domain]: Queries DNS to obtain the IP address associated with a domain name.
+
+netstat: Displays active network connections, including the protocol, local address, remote address, and state of the connections.
+
+netstat -an: Shows active connections and listening ports in numerical format (IP addresses and port numbers).
+
+arp -a: Displays the ARP (Address Resolution Protocol) cache, which maps IP addresses to MAC addresses in the local network.
+
+route print: Displays the routing table of the device, showing the network routes and associated network interfaces.
+
+netsh interface ip show config: Displays the IP configuration for all network interfaces on the device, similar to ipconfig, but with more details.
